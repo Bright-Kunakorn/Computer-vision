@@ -10,7 +10,7 @@ img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 #blur image to reduce noise with 3x3 kernel size and set 0 to x and y parameter of GaussianBlur
 img = cv2.GaussianBlur(img, (3,3),0)
 
-#cv2.CV_64F set data type to double 64 bits
+#cv2.CV_64F set data type to double 64  bits
 sobelx = cv2.Sobel(img, cv2.CV_64F, 1,0, ksize = 5)
 sobely = cv2.Sobel(img, cv2.CV_64F, 0,1, ksize = 5)
 
