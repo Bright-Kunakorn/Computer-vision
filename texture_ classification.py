@@ -4,7 +4,6 @@ import os
 import glob
 import mahotas as mt
 
-
 # load the training dataset
 train_path = "dataset/train"
 train_names = os.listdir(train_path)
