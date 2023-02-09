@@ -45,7 +45,6 @@ for train_name in train_names:
 
 # create the classifier
 print ("[STATUS] Creating the classifier..")
-
 #from sklearn.svm import LinearSVC
 #clf = LinearSVC(random_state=9, max_iter = 200000)
 
