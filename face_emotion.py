@@ -3,7 +3,6 @@ from deepface import DeepFace
 MULTIPLER = 0.2
 
 faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
-
 # get webcam
 cap = cv2.VideoCapture(0)
 
